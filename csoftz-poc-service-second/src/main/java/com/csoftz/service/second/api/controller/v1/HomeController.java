@@ -24,6 +24,7 @@ import reactor.core.publisher.Mono;
 @RestController
 @RequestMapping("api/v1/home")
 public class HomeController {
+
     /**
      * Retrieves an index request.<br/>
      * GET /api/v1/home

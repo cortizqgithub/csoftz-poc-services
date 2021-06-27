@@ -21,6 +21,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class CsoftzPocServiceFirstApplication {
 
+    /**
+     * Main entry point to application.
+     *
+     * @param args Command line arguments.
+     */
     public static void main(String[] args) {
         SpringApplication.run(CsoftzPocServiceFirstApplication.class, args);
     }
