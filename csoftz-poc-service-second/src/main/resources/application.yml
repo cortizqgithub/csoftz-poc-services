@@ -1,0 +1,8 @@
+server:
+  port: 7347
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: mappings

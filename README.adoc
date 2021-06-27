@@ -2,4 +2,16 @@
 
 V2021.0.0 Jun.26/2021
 
+Contains three microservice applications to play with Spring Boot tooling and concepts.
+All the applications are Spring WebFlux enabled, that is, they are fully reactive.
 
+The purpose is to have a set of applications to showcase things to learn around the Microservices world, and as such it is a work in progress.
+
+The folders below are where each application resides.
+Take note that this is configure as a Multi-project Maven project.
+
+* *csoftz-poc-service-main*
+* *csoftz-poc-service-first*
+* *csoftz-poc-service-second*
+
+csoftz-poc- <dependencyManagement> <dependencies> <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-dependencies</artifactId> <type>pom</type> <version>2.4.0</version> <scope>import</scope> </dependency> </dependencies> <dependencyManagement>
