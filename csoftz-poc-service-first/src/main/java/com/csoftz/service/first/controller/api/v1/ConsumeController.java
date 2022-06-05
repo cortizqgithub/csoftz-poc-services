@@ -6,7 +6,7 @@
  History
  Jun.26/2021  COQ  File created.
  -----------------------------------------------------------------------------*/
-package com.csoftz.service.first.api.controller.v1;
+package com.csoftz.service.first.controller.api.v1;
 
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;

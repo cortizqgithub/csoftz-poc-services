@@ -6,7 +6,7 @@
  History
  Jun.26/2021  COQ  File created.
  -----------------------------------------------------------------------------*/
-package com.csoftz.service.second.api.controller.v1;
+package com.csoftz.service.first.controller.api.v1;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,6 +33,6 @@ public class HomeController {
      */
     @GetMapping("")
     public Mono<String> retrieveIndex() {
-        return Mono.just("This poc-service-second");
+        return Mono.just("This poc-service-first");
     }
 }

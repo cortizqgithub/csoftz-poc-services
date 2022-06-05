@@ -6,7 +6,7 @@
  History
  Jun.26/2021  COQ  File created.
  -----------------------------------------------------------------------------*/
-package com.csoftz.service.main.api.controller.v1;
+package com.csoftz.service.main.controller.api.v1;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.reactive.function.client.WebClient;
 
-import com.csoftz.service.main.common.config.client.exchange.HeaderExchange;
+import com.csoftz.webflux.filter.common.config.client.exchange.HeaderExchange;
 
 import reactor.core.publisher.Mono;
 

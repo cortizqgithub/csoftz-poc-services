@@ -15,6 +15,7 @@
     <version>2021.0.0</version>
     <properties>
         <java.version>16</java.version>
+        <csoftz-webflux-sb-starter.version>2021.0.0</csoftz-webflux-sb-starter.version>
     </properties>
     <dependencies>
         <dependency>
@@ -39,6 +40,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.csoftz</groupId>
+            <artifactId>csoftz-webflux-spring-boot-starter</artifactId>
+            <version>${csoftz-webflux-sb-starter.version}</version>
         </dependency>
 
         <!-- Test dependencies -->
